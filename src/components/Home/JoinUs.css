@@ -1,0 +1,84 @@
+.container {
+    height: 406px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    background-color: #F2FAF5;
+  }
+  
+  .header {
+    margin-bottom: 30px;
+  }
+  
+  .title {
+   /* Drive Your Success with MyFastX */
+
+max-width: 205px;
+height: 18px;
+left: calc(50% - 205px/2 + 0.5px);
+bottom: 838px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+
+
+/* AccentColor */
+color: #63B178;
+
+
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+   /* Are you a vehicle owner looking for new opportunities? Join MyFastX today and become part of a dynamic network of drivers. With us, you’ll enjoy flexible work hours, competitive earnings, and the satisfaction of delivering smiles across the city. */
+
+max-width: 661px;
+height: 54px;
+
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+
+color: #5D5D5D;
+
+
+  }
+  
+  .button {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #4cae4c;
+  }

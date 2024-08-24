@@ -1,0 +1,38 @@
+.coupon {
+  font-family: Arial, sans-serif;
+  margin-top: 5rem;
+}
+
+.coupon-content {
+  margin-top: 10px;
+}
+.coupon-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align items to the start */
+  position: relative; /* Ensure positioning context for absolute positioning */
+}
+
+.coupon-label {
+  font-size: 14px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  width: 100%; /* Take full width */
+  position: relative; /* Ensure proper alignment of the icon */
+}
+
+.coupon-code {
+  font-size: 14px;
+  color: #333;
+  margin-top: 5px;
+  padding-left: 25px; /* Indent content to accommodate the icon */
+}
+
+.accordion-icon {
+  position: absolute;
+  right: 7%;
+}
