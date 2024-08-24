@@ -42,7 +42,6 @@
      /* identical to box height */
      border-bottom: 3px solid transparent;
      border-image: linear-gradient(to right, #63B178, #63B178 50%, transparent 50%, transparent) 1;
-     margin-bottom: 0.5rem;
      color: #080404;
      
      

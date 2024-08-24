@@ -32,12 +32,14 @@ export default function App() {
     return(
       <>
        <Navbar/>
+       <div style={{paddingInline:"4rem"}}>
         <Intro/>
         <StepsToGetStarted steps={stepsData} />
         <Testimonials/>
         <Contacts/>
         <JoinUsPage/>
-        <Footer/>
+        </div>
+      <Footer/>
       </>
        
     )
