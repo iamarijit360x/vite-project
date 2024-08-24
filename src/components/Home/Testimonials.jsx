@@ -91,7 +91,7 @@ const Testimonials = () => {
         <p className='test-des'>
         At MyFastX, our commitment to excellence is reflected in the feedback from our valued customers. Here's what they have to say about their experiences with our quick and reliable delivery and logistics services
         </p>
-        <div className='footer-image-container'>
+        <div className='footer-image-container' style={{marginBlockStart:"2rem"}}>
             <img src={city1}/>
             <img src={city2}/>
         </div>
