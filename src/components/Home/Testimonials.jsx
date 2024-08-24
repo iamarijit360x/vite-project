@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Testimonials.css';
-import Star from '../../assets/Star.PNG';
+import Star from '../../assets/Star.png';
 import { GrFormNext } from "react-icons/gr";
 import { GrFormPrevious } from "react-icons/gr";
 import city1 from '../../assets/City1.png'

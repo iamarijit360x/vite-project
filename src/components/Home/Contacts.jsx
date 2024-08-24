@@ -1,8 +1,5 @@
-import React, { useState } from 'react';
 import './Testimonials.css';
-import Star from '../../assets/Star.PNG';
-import { GrFormNext } from "react-icons/gr";
-import { GrFormPrevious } from "react-icons/gr";
+
 import Coupon from '../Acc';
 import Phone from '../../assets/Phone.png'
 import Email from '../../assets/Mail.png'
